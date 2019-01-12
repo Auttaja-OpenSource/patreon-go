@@ -16,6 +16,7 @@ type User struct {
 		Email           string   `json:"email"`
 		About           string   `json:"about"`
 		FacebookId      string   `json:"facebook_id"`
+		DiscordId       string   `json:"discord_id"`
 		Gender          int      `json:"gender"`
 		HasPassword     bool     `json:"has_password"`
 		ImageURL        string   `json:"image_url"`
